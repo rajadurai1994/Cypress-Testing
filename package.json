@@ -1,19 +1,19 @@
 {
-  "name": "shop-apotheke-test",
+  "name": "cypress-testing",
   "version": "1.0.0",
   "description": "Automation of API and GUI tests",
   "main": "index.js",
   "scripts": {
-    "Test": "npx cypress run --spec 'cypress/e2e/bdd/*.feature' --record --key cee6d240-0251-4e6b-8c7e-05557ef98583 --browser chrome --headless"
+    "Test": "npx cypress run --spec 'cypress/e2e/bdd/*.feature' --record --key 22671b2b-b8ff-44df-baea-e0a40504c3ef --browser chrome --headless"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lijinthekkekara12121991/shop-apotheke-test.git"
+    "url": "git+https://github.com/rajadurai1994/Cypress-Testing"
   },
-  "author": "Lijin Thekkekara",
+  "author": "Raja Durai Chidambara Raj",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lijinthekkekara12121991/shop-apotheke-test/issues"
+    "url": "https://github.com/rajadurai1994/Cypress-Testing/issues"
   },
   "devDependencies": {
     "cypress": "12.3.0",
@@ -23,5 +23,5 @@
     "nonGlobalStepDefinitions": false,
     "step_definitions": "cypress/e2e/step_definitions/**/"
   },
-  "homepage": "https://github.com/lijinthekkekara12121991/shop-apotheke-test#readme"
+  "homepage": "https://github.com/rajadurai1994/Cypress-Testing#readme"
 }
