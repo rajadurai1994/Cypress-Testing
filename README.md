@@ -1,2 +1,6 @@
-# Cypress-Testing
-Sample Testing using Cypress Automation framework
+# shop-apotheke-test
+npm install
+
+npx cypress install
+
+npm run Test

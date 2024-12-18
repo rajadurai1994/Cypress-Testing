@@ -1,0 +1,27 @@
+{
+  "name": "shop-apotheke-test",
+  "version": "1.0.0",
+  "description": "Automation of API and GUI tests",
+  "main": "index.js",
+  "scripts": {
+    "Test": "npx cypress run --spec 'cypress/e2e/bdd/*.feature' --record --key cee6d240-0251-4e6b-8c7e-05557ef98583 --browser chrome --headless"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lijinthekkekara12121991/shop-apotheke-test.git"
+  },
+  "author": "Lijin Thekkekara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lijinthekkekara12121991/shop-apotheke-test/issues"
+  },
+  "devDependencies": {
+    "cypress": "12.3.0",
+    "cypress-cucumber-preprocessor": "4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/e2e/step_definitions/**/"
+  },
+  "homepage": "https://github.com/lijinthekkekara12121991/shop-apotheke-test#readme"
+}
