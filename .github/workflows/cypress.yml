@@ -1,0 +1,19 @@
+name: API and GUI tests
+
+on: workflow_dispatch
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    container: 
+      image: cypress/included:12.3.0
+      options: --user 1001
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@v2
+
+      - name: Install the dependencies
+        run: npm install
+
+      - name: Run the tests
+        run: npm run Test
