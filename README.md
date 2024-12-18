@@ -1,4 +1,4 @@
-# shop-apotheke-test
+# Sample Cypress Test Framework
 npm install
 
 npx cypress install
